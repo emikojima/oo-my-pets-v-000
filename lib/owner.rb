@@ -38,7 +38,7 @@ class Owner
   end 
   
   def walk_dogs
-  Dog[3] = "happy"
+  Dog
   end
   
 end
