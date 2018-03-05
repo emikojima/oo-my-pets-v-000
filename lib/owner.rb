@@ -43,5 +43,8 @@ class Owner
    dog.mood = "happy"
     end
   end
+  def list_pets
+    @pets
+  end 
   
 end
