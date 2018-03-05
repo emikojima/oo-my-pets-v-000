@@ -30,6 +30,5 @@ class Owner
   :fishes << name
   end
     
-  end
   
 end
