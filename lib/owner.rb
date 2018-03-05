@@ -50,6 +50,11 @@ class Owner
     end 
   end
     
+  def feed_fish
+    @pets[:fishes].each do |fish|
+      fish.mood = "happy"
+    end 
+  end 
   
   def list_pets
     "I have #{@pets[:fishes].count} fish, #{@pets[:dogs].count} dog(s), and #{@pets[:cats].count} cats(s)."
