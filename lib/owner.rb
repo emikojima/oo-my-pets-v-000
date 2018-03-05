@@ -57,7 +57,7 @@ class Owner
   end 
   
   def sell_pets
-    @pets.clear
+    @pets.each {|pet| pet.mood = "nervous"}
   end 
   
   def list_pets
