@@ -1,6 +1,6 @@
 require 'pry'
 class Owner
-  attr_accessor :name, :pets
+  attr_accessor :name, :pets, :mood
   attr_reader :species
   @@all = []
  
@@ -39,8 +39,8 @@ class Owner
   end 
   
   def walk_dogs
-    binding.pry
-  @pets[:dogs]
+    #binding.pry
+  @pets[:dogs].mood = "happy"
   end
   
 end
