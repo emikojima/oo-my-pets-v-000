@@ -3,8 +3,8 @@ class Fish
   attr_accessor :mood
  
   
-  def initialize(dog_name)
-    @name = dog_name
+  def initialize(fish_name)
+    @name = fish_name
     @mood = "nervous"
    
   end
