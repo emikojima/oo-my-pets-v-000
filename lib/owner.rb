@@ -43,8 +43,9 @@ class Owner
    dog.mood = "happy"
     end
   end
+  
   def list_pets
-    @pets
+    "I have #{@pets[:dogs].count}""
   end 
   
 end
