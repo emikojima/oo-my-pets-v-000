@@ -38,8 +38,8 @@ class Owner
   @pets[:dogs] << Dog.new(name)
   end 
   
-  def mood(mood)
-    @mood = mood
+  def mood
+    @mood 
   end
   
   def walk_dogs
