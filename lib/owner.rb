@@ -25,4 +25,6 @@ class Owner
     "I am a #{@species}."
   end
   
+  def 
+  
 end
